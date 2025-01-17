@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: fakeshop
-          image: henriqueandradesilva/fakeshop:v1
+          image: henriqueandradesilva/fake-shop:v1
           ports:
             - containerPort: 5000
           env:

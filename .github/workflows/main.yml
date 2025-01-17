@@ -24,8 +24,8 @@ jobs:
           push: true
           file: ./src/Dockerfile
           tags: |
-            henriqueandradesilva/fakeshop:latest
-            henriqueandradesilva/fakeshop:v${{ github.run_number }}
+            henriqueandradesilva/fake-shop:latest
+            henriqueandradesilva/fake-shop:v${{ github.run_number }}
 
 
 
@@ -56,4 +56,4 @@ jobs:
           manifests: |
               ./k8s/deployment.yaml
           images: |
-              henriqueandradesilva/fakeshop:v${{ github.run_number }}
+              henriqueandradesilva/fake-shop:v${{ github.run_number }}
