@@ -48,10 +48,10 @@ jobs:
      - name: Configurar o kubectl
        run: aws eks update-kubeconfig --name aula-k8s
       
-    - name: Deploy dos manifestos no Kubernetes  
-      uses: Azure/k8s-deploy@v5
-      with:
-        manifests: |
-         ./k8s/deployment.yaml
-        images: |
-           henriqueandradesilva/fakeshop:v${{ github.run_number }}
+     - name: Deploy dos manifestos no Kubernetes  
+       uses: Azure/k8s-deploy@v5
+       with:
+         manifests: |
+          ./k8s/deployment.yaml
+         images: |
+            henriqueandradesilva/fakeshop:v${{ github.run_number }}
