@@ -1,5 +1,7 @@
 # Fake Shop
-
+Imersão muito boa, Fabricio está de parabéns,
+acabei fazendo todos os exercicios localmente,
+estava sem uma conta aws.
 
 ## Variável de Ambiente
 DB_HOST	=> Host do banco de dados PostgreSQL.
